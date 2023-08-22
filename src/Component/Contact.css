@@ -1,0 +1,337 @@
+.ct-ctn{
+    display: flex;
+    margin: 0;
+    padding: 0;
+   
+}
+
+.ct-ctn-1{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    justify-content: space-between;
+}
+
+.art{
+    justify-content: center;
+    align-items: centers;
+    flex: 1;
+}
+.art p{
+    color: white;
+    text-align: center;
+    font-size: 1.5vw;
+    width: 80%;
+
+}
+
+.art-1{
+    flex: 2;
+    max-width: auto;
+    max-height: 60vh;
+}
+.art-1 img{
+    object-fit: contain;
+}
+
+.hTitle {
+color: white;
+font-size: 1.5vw;
+}
+.section-divider{
+    margin-top: 0;
+
+}
+
+ .hTitle h2 {
+    margin: 0;
+}
+
+.hAddress{
+    flex-direction: column;
+    align-items: center;
+}
+
+.hAddress p{
+    padding: .5rem;
+    color: white;
+    font-size: 1.5vw;
+    text-align: center;
+}
+
+.cAddress{
+    flex-direction: column;
+    align-items: center;
+}
+
+.cAddress p{
+    color: white;
+    font-size: 1.5vw;
+    text-align: center;
+    padding-top: .5rem;
+}
+
+.sAddress{
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.cIcon{
+    display: flex;
+    align-items: center;
+}
+.cIcon p{
+    color: rgb(203, 180, 212);
+    font-size: 1.5svw;
+    padding-left: .5rem;
+}
+
+.scrl li{
+    color: rgb(255, 255, 255);
+}
+
+
+@media(max-width: 1000px){
+
+    .ct-ctn{
+        display: flex;
+        padding-bottom: 5rem;
+        padding: 0;
+        
+    }
+
+
+    .ct-ctn-1{
+        padding-bottom: 5rem;
+        padding: 0;
+    }
+    .hTitle h2{
+        font-size: 3vw;
+    }
+    .art{
+    
+        padding: 1rem;
+        padding-bottom: 7rem;
+
+    }
+
+    .art-1{
+    
+        max-width: 50%;
+        max-height: 60vh;
+        padding-bottom:7rem ;
+    }
+
+    .art p{
+        color: white;
+        font-size: 2.3vw;
+        width: 80%;
+
+    }
+
+    .cIcon p{
+        color: white;
+        font-size: 2vw;
+        padding-left: .5rem;
+    }
+
+    .hAddress p{
+        padding: .5rem;
+        color: white;
+        font-size: 2vw;
+        text-align: center;
+    }
+
+    .cAddress p{
+        color: white;
+        font-size: 2vw;
+        text-align: center;
+        padding-top: .5rem;
+    }
+
+    .hCtn .section-divider{
+        margin: 1rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+ 
+}
+
+@media(max-width: 800px){
+    
+    .ct-ctn{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        
+    }
+
+    .ct-ctn-1{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        
+    }
+
+    .hTitle h2{
+      font-size: 3.5vw;
+    }
+
+    .art{
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 7rem;
+        
+    }
+
+    .art-1{
+        padding-bottom: 7rem;
+    }
+
+    .art p{
+       font-size:2.5vw ;
+    }
+
+    .ct-ctn article{
+        justify-content: center;
+    }
+
+    .ct-ctn-1 article{
+        justify-content: center;
+    }
+
+    .cAddress p{
+        font-size: 2.5vw;
+    }
+    .hAddress p{
+        font-size: 2.5vw;
+    }
+    .cIcon p{
+        font-size: 2.5vw;
+    }
+
+}
+
+@media (max-width: 630px){
+    .hCtn{
+        background-image: url(/src/Images/service-9.png);
+        background-size: cover;
+        overflow: hidden;
+
+    }
+
+.ct-ctn{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.ct-ctn-1{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    gap: 1rem;
+    margin-bottom: 6rem;
+
+}
+.hTitle h2{
+    font-size: 5vw;
+  }
+
+.art-1 img{
+    display: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+.art p{
+    font-size: 4vw;
+    margin-top: 5rem
+}
+
+.sAddress{
+    grid-column: span 2;
+}
+.cAddress p{
+    font-size: 3.2vw;
+}
+.hAddress p{
+    font-size: 3.2vw;
+}
+.cIcon p{
+    font-size: 3.2vw;
+}
+
+.ct-ctn .art p{
+    color: rgb(255, 255, 255);
+    font-size: 1.75rem ;
+    font-weight: 500;
+    background-color: rgba(238, 170, 228, 0.7) ;
+    width: 100%;
+    border-radius: 10%;
+
+}
+}
+
+@media (max-width: 430px ){
+
+
+
+    .art-1 img{
+        display: none;
+    }
+
+    .art{
+        max-width: 80vhs;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 1.5rem ;
+    
+    }
+
+    .art p{
+        font-size: 5vw;
+        padding:0;
+    }
+    
+    .hTitle h2{
+        font-size: 7vw;
+    }
+
+    .ct-ctn{
+        display: flex;
+        max-height: 60vh;
+        
+    }
+    article{
+        margin: 0;
+        padding: 0;
+    }
+    .hCtn{
+        background-image: url(/src/Images/service-7.png);
+        background-size: cover;
+        overflow: hidden;
+    }
+
+    .ct-ctn-1{
+        margin-top: 4rem;
+        margin-bottom: 6rem;
+    }
+
+    .cAddress p{
+        font-size: 4.5vw;
+    }
+    .hAddress p{
+        font-size: 4.5vw;
+    }
+    .cIcon p{
+        font-size: 4.5vw;
+    }
+
+    .ct-ctn .art p{
+    
+        font-size: 1.6rem ;
+    }
+}

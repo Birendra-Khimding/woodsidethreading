@@ -1,0 +1,154 @@
+
+.bck{
+    color: white;
+    padding: 0 1rem;
+}
+
+.scrl{
+  padding-top: 3rem;
+  padding-left: 6rem;
+  padding-right: 6rem;
+}
+
+.scrl ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+}
+
+.scrl ul li{
+  padding: .5rem;
+  border-radius: 15%;
+  font-size: 1.5rem;
+  
+}
+
+.scrl ul li:hover{
+  background-color:#47214e ;
+  transform: scale(1.1);
+}
+
+
+
+
+h3{
+  text-align: center;;
+  padding-top: 4rem;
+}
+
+.dvd{
+  border: none;
+    border-top: 2px solid #ccc; /* Adjust the color as needed */
+    margin-top: 0.5rem;
+    margin-bottom: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr; /* Two columns with equal width */
+  gap: 10px; /* Gap between rows and columns */
+  padding: 3rem;
+}
+
+.item {
+  font-size: 1.25rem;
+  display: flex;
+  align-items: center;
+  border-right: 1px solid #ccc;
+  padding: 1rem;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.item span{
+  flex: 1;
+}
+
+.item  .item-title{
+  color: rgb(238, 228, 228);
+}
+
+.item .item-price{
+  color: rgb(238, 228, 228);
+}
+.spc {
+  width: 20%;
+  height: 0;
+  border: 1px solid #ccc;
+  margin: 10px; /* Add margin to create space around the line */
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.bck .section-divider {
+  border: none;
+  border-top: 1px solid #ccc; /* Adjust the color as needed */
+ margin: 0 auto;
+  width: 90%;
+}
+
+@media (max-width: 1000px){
+  .grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr ; /* Two columns with equal width */
+    gap: 10px; /* Gap between rows and columns */
+    padding: 1.5rem;
+  }
+  .scrl ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 1.5rem;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .scrl ul li{
+   text-align: center;
+  }
+
+  .scrl .hen{
+  grid-column: span 4;
+  }
+
+}
+
+
+@media (max-width: 600px){
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: 1fr  ; /* Two columns with equal width */
+    gap: 10px; /* Gap between rows and columns */
+    padding: .5rem;
+    max-height: 1000px;
+  }
+
+  .scrl ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1.5rem;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .scrl ul li{
+   text-align: center;
+   font-size: 1.25rem;
+  }
+
+  .scrl .hen{
+    grid-column: span 2;
+    }
+    
+    
+
+
+ 
+
+}

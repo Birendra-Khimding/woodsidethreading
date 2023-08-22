@@ -1,0 +1,206 @@
+
+    
+section {
+    display: flex;
+    justify-content: center; /* Distributes space between articles */
+    align-items: center; /* Centers items vertically */
+    padding: 3rem 7rem;
+
+}
+
+h2{
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+article {
+    flex: 1; /* Distributes available space equally among articles */
+    margin: 0 10px; /* Add margin for spacing */
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+    
+}
+
+.text-ctn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0;
+}
+
+.text-ctn p{
+    text-align: center;
+    font-size: 1.75vw;
+    
+    
+}
+
+.text-ctn .off-text{
+    display: inline-block;
+    margin: 2rem;
+    padding: 2rem;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.2) ;
+}
+
+section article img{
+    width: 100%;
+    object-fit: cover; /* Adjust to your requirement */
+    border-radius: 30px;
+    
+}
+
+section article p{
+    font-size: medium;
+}
+.section-divider {
+    border: none;
+    border-top: 1px solid #ccc; /* Adjust the color as needed */
+    margin: 20px auto; /* Add margin for spacing */
+    width: 90%;
+}
+
+.cSection{
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 90%;
+    margin-bottom: 5rem;
+}
+
+
+
+@media(max-width:1000px){
+    .img-ctn{
+        display: none;
+    }
+
+    .section-divider{
+        margin-top: 3rem;
+        margin-bottom: .5rem;
+    }
+
+    .hBack{
+        display: flex;
+        height: 60vh;
+        align-items: flex-start;
+        background-image: url("../Images/hero-5.jpg");
+        background-size: cover;
+        background-position: center;
+        
+    }
+
+    h2{
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+    .text-ctn{
+        height: 100%;
+        align-items: flex-start;
+        justify-content: left;
+        padding-top: 3rem;
+        padding-left: 1rem;
+
+    }
+
+    .q-text{
+        width: 60%;
+    }
+    .text-ctn .q-text{
+        font-weight: bold;
+        border-radius: 10%;
+        background-color: rgba(243, 51, 51, .6) ;
+      color: rgb(30, 30, 158);
+    }
+
+    .text-ctn .off-text{
+        font-weight: bold;
+        background-color: rgba(243, 51, 51, .6) ;
+      color: rgb(30, 30, 158);
+
+    }
+
+
+
+    .text-ctn p{
+        font-size: calc(.5rem + 1.5vw);
+        
+    }
+    section{
+        padding: 0;
+    }
+
+ 
+    .cSection{
+        margin-bottom: 5rem;
+    }
+
+    .ins-1 .bg{
+        font-size: 1rem;
+    }
+
+
+}
+
+
+
+@media(max-width: 787px) {
+   
+    .text-ctn p{
+        font-size: calc(.8rem + 1vw);
+        
+    }
+    .q-text{
+        width: 50vw;
+        padding-bottom: 1rem;
+    }
+
+    .hBack{
+        height: 55vh;
+    }
+    .hBack .off-text{
+        margin: 0;
+    }
+    h2{
+        margin-top: 2rem;
+        font-size: 1.3rem;
+    }
+    
+}
+
+@media(max-width: 600px){
+    .q-text{
+        width: 70vw
+    }
+
+    .text-ctn{
+      padding-top: 1rem;
+      padding-left: .5rem;
+    }
+    .hBack{
+        height: 45vh;
+    }
+    
+    .hBack .off-text{
+        padding: 1.2rem;
+    }
+
+    h2{
+        font-size: 1.5rem;
+    }
+
+
+}
+
+@media(max-width: 430px) {
+    .hBack{
+        height: 40vh;
+    }
+    .hBack .off-text{
+        padding: .9rem;
+    }
+}

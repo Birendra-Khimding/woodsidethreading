@@ -1,0 +1,169 @@
+.footer {
+  color: white;
+  width: 100%;
+  text-align: center;
+   /* Make the footer stretch across the entire width */
+}
+
+.footer-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+  align-items: center;
+  text-align: center;
+  max-height: 20vh;
+  width: 100%; 
+  grid-template-areas: 
+  "company social contact"
+  "copyright copyright copyright";
+  
+}
+
+.company-info {
+    font-family: "Lucida Handwriting", cursive;
+  margin-bottom: 20px;
+  background-color: #cca5a2;
+    background-image: linear-gradient(to top, #a70101 0%, #680707 100%);
+    background-size: 100%;
+    -webkit-background-clip:text;
+    -moz-background-clip:text;
+    -webkit-text-fill-color:transparent;
+    -moz-text-fill-color: transparent;
+    text-decoration: none;
+    font-size:30px;
+    font-weight: 1000;
+}
+
+.company-info{
+  grid-area: company;
+}
+
+.company-info p {
+  margin: 0;
+  font-size: 2rem;
+}
+
+.social-icons {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-bottom: 20px;
+  grid-area: social;
+  align-items: center;
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+  color: white;
+  font-size: 1.5em; /* Adjust font size */
+}
+
+.icon p {
+  margin: 0;
+  padding-left: 10px;
+  font-size: .75em; /* Adjust font size */
+}
+
+.contact-info {
+  text-align: center;
+  grid-area: contact;
+}
+
+.contact-info p {
+  margin: 0;
+  font-size: 1rem;
+}
+.copyright {
+  text-align: center;
+  grid-area: copyright;
+
+ 
+}
+.section-divider-1 {
+  border: none;
+  border-top: 1px solid #ccc; /* Adjust the color as needed */
+  margin: 20px auto; /* Add margin for spacing */
+  width: 100%;
+}
+
+@media (max-width: 1000px){
+  .copyright p{
+    font-size: 1.25rem
+  }
+
+  .company-info p{
+    font-size: 1.75rem;
+  }
+
+  .contact-info p{
+    font-size: 1.1rem;
+  }
+
+  .social-icons p{
+    font-size: 1.25rem;
+  }
+}
+
+@media (max-width: 600px) {
+    .footer {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .footer-content {
+      grid-template-columns: 1fr; /* Change to a single column layout */
+      text-align: center;
+      grid-template-areas: 
+        "company"
+        "social"
+        "contact"
+        "copyright";
+        /* Define custom areas for mobile */
+    }
+  
+    .company-info {
+      font-size: 20px;
+      margin-bottom: 10px;
+    }
+  
+    .social-icons {
+  
+      justify-content: space-evenly; /* Equally spread out icons */
+      margin-bottom: 10px;
+      width: 100%; /* Ensure icons take full width */
+    }
+  
+    .icon {
+      font-size: 1.2em;
+    }
+  
+    .icon p {
+      padding-left: 10px;
+      font-size: .7rem;
+    }
+  
+    .contact-info {
+      text-align: center;
+    }
+  
+     .copyright {
+      text-align: center;
+    }
+
+    .copyright p{
+      font-size: 1rem
+    }
+  
+    .company-info p{
+      font-size: 1.75rem;
+    }
+  
+    .contact-info p{
+      font-size: 1rem;
+    }
+  
+    .social-icons p{
+      font-size: 1rem;
+    }
+  }
