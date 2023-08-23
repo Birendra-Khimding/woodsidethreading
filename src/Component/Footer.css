@@ -1,7 +1,10 @@
 .footer {
   color: white;
-  width: 100%;
+  max-width: 100%;
+  max-height: 100%;
   text-align: center;
+  background: linear-gradient(0.25turn,#be80b3, #dd90cf);
+  padding-top: 1.5rem;
    /* Make the footer stretch across the entire width */
 }
 
@@ -62,7 +65,7 @@
 .icon p {
   margin: 0;
   padding-left: 10px;
-  font-size: .75em; /* Adjust font size */
+  font-size: 1.75rem; /* Adjust font size */
 }
 
 .contact-info {
@@ -72,20 +75,34 @@
 
 .contact-info p {
   margin: 0;
-  font-size: 1rem;
+  font-size: 1.5rem;
 }
 .copyright {
   text-align: center;
   grid-area: copyright;
-
  
 }
-.section-divider-1 {
-  border: none;
-  border-top: 1px solid #ccc; /* Adjust the color as needed */
-  margin: 20px auto; /* Add margin for spacing */
-  width: 100%;
+
+.copyright p{
+  font-size: 1.25rem;
 }
+
+@media(max-width: 1250px){
+  .copyright p{
+    font-size: 1.15rem;
+  }
+
+  .contact-info p {
+  
+    font-size: 1.25rem;
+  }
+
+  .contact-info p {
+    
+    font-size: 1.25rem;
+  }
+}
+
 
 @media (max-width: 1000px){
   .copyright p{
@@ -109,6 +126,7 @@
     .footer {
       flex-direction: column;
       align-items: center;
+     height: 275px;
     }
 
     .footer-content {

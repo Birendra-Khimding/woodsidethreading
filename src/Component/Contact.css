@@ -8,7 +8,7 @@
 .ct-ctn-1{
     display: flex;
     margin: 0;
-    padding: 0;
+    padding: 8rem 0;
     justify-content: space-between;
 }
 
@@ -18,9 +18,9 @@
     flex: 1;
 }
 .art p{
-    color: white;
+    color: rgb(58, 53, 53);
     text-align: center;
-    font-size: 1.5vw;
+    font-size: 1.75vw;
     width: 80%;
 
 }
@@ -35,9 +35,11 @@
 }
 
 .hTitle {
-color: white;
-font-size: 1.5vw;
+color:black;
+padding-top: 1.5rem;
 }
+
+.hTitle 
 .section-divider{
     margin-top: 0;
 
@@ -54,7 +56,7 @@ font-size: 1.5vw;
 
 .hAddress p{
     padding: .5rem;
-    color: white;
+    color: rgb(58, 53, 53);
     font-size: 1.5vw;
     text-align: center;
 }
@@ -65,7 +67,7 @@ font-size: 1.5vw;
 }
 
 .cAddress p{
-    color: white;
+    color: rgb(58, 53, 53);
     font-size: 1.5vw;
     text-align: center;
     padding-top: .5rem;
@@ -81,7 +83,7 @@ font-size: 1.5vw;
     align-items: center;
 }
 .cIcon p{
-    color: rgb(203, 180, 212);
+    color: rgb(58, 53, 53);
     font-size: 1.5svw;
     padding-left: .5rem;
 }
@@ -90,6 +92,65 @@ font-size: 1.5vw;
     color: rgb(255, 255, 255);
 }
 
+@media(max-width: 1200px){
+    .hCtn{
+        background-image: url(/src/Images/service-9.png);
+        background-size: cover;
+        height: 55vh;
+        overflow: hidden;
+    }
+
+    .ct-ctn {
+     display: flex;
+     flex-direction: column;
+       
+    }
+
+    .ct-ctn .art{
+        padding-top: 3.5rem;
+        padding-bottom: 0;
+    }
+    .ct-ctn .art p{
+      font-size: 3.5vw;
+      color: rgb(58, 53, 53);
+      background-color: rgb(202, 190, 204,0.5);
+      border-radius: 15%;
+    }
+
+    .ct-ctn .art-1{
+        padding: 0;
+    }
+
+    .ct-ctn-1{
+        padding-top: 0;
+    }
+
+.art-1 img{
+    display: none;
+    margin: 0;
+    padding: 0;
+}
+
+.cIcon p{
+        
+    font-size: 2vw;
+    padding-left: .5rem;
+}
+
+.hAddress p{
+    padding: .5rem;
+    
+    font-size: 2vw;
+    text-align: center;
+}
+
+.cAddress p{
+    
+    font-size: 2vw;
+    text-align: center;
+    padding-top: .5rem;
+}
+}
 
 @media(max-width: 1000px){
 
@@ -102,8 +163,7 @@ font-size: 1.5vw;
 
 
     .ct-ctn-1{
-        padding-bottom: 5rem;
-        padding: 0;
+
     }
     .hTitle h2{
         font-size: 3vw;
@@ -123,27 +183,27 @@ font-size: 1.5vw;
     }
 
     .art p{
-        color: white;
+        
         font-size: 2.3vw;
         width: 80%;
 
     }
 
     .cIcon p{
-        color: white;
+        
         font-size: 2vw;
         padding-left: .5rem;
     }
 
     .hAddress p{
         padding: .5rem;
-        color: white;
+        
         font-size: 2vw;
         text-align: center;
     }
 
     .cAddress p{
-        color: white;
+        
         font-size: 2vw;
         text-align: center;
         padding-top: .5rem;
@@ -157,60 +217,7 @@ font-size: 1.5vw;
  
 }
 
-@media(max-width: 800px){
-    
-    .ct-ctn{
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        
-    }
 
-    .ct-ctn-1{
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        
-    }
-
-    .hTitle h2{
-      font-size: 3.5vw;
-    }
-
-    .art{
-        justify-content: center;
-        align-items: center;
-        padding-bottom: 7rem;
-        
-    }
-
-    .art-1{
-        padding-bottom: 7rem;
-    }
-
-    .art p{
-       font-size:2.5vw ;
-    }
-
-    .ct-ctn article{
-        justify-content: center;
-    }
-
-    .ct-ctn-1 article{
-        justify-content: center;
-    }
-
-    .cAddress p{
-        font-size: 2.5vw;
-    }
-    .hAddress p{
-        font-size: 2.5vw;
-    }
-    .cIcon p{
-        font-size: 2.5vw;
-    }
-
-}
 
 @media (max-width: 630px){
     .hCtn{
@@ -223,9 +230,13 @@ font-size: 1.5vw;
 .ct-ctn{
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
+}
+
+.ct-ctn .art{
+    display: flex;
     align-items: center;
+    justify-content: center;
+    padding: 0;
 }
 
 .ct-ctn-1{
@@ -265,10 +276,10 @@ font-size: 1.5vw;
 }
 
 .ct-ctn .art p{
-    color: rgb(255, 255, 255);
     font-size: 1.75rem ;
     font-weight: 500;
-    background-color: rgba(238, 170, 228, 0.7) ;
+    color: rgb(58, 53, 53);
+      background-color: rgb(202, 190, 204,0.5);
     width: 100%;
     border-radius: 10%;
 
@@ -316,7 +327,6 @@ font-size: 1.5vw;
     }
 
     .ct-ctn-1{
-        margin-top: 4rem;
         margin-bottom: 6rem;
     }
 

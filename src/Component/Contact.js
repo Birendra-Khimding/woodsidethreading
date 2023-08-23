@@ -8,10 +8,10 @@ import "./Contact.css";
 
 function Contact(){
 
-    const hIcon = (<ImHome3 className="hic" size="30px" color="white"/>);
-    const cIcon = (<MdOutlineContactMail className="cic" size="30px" color="white"/>);
-    const iIcon = (<AiFillInstagram className="iic" size="30px" color="white"/>);
-    const fIcon = (<BiLogoFacebookSquare className="fic" size="30px" color="white"/>);
+    const hIcon = (<ImHome3 className="hic" size="50px" color="gray"/>);
+    const cIcon = (<MdOutlineContactMail className="cic" size="50px" color="gray"/>);
+    const iIcon = (<AiFillInstagram className="iic" size="35px" color="gray"/>);
+    const fIcon = (<BiLogoFacebookSquare className="fic" size="35px" color="gray"/>);
     return(
         <>
         <div className="hCtn">

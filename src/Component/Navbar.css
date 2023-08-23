@@ -1,20 +1,21 @@
 .active{
-    background-color: #47214e;
+    background-color: #663c5e;
 }
 
 
 nav {
     display: flex;
     align-items: center;
-    color: black;
-    position: sticky;
-    top: 0;
+    background: linear-gradient(0.25turn,#be80b3, #dd90cf);
+    position: fixed;
+    width: 100%;
     z-index: 100;
     margin: 1;
+    height: 100px;
 
 }
 .nav-ctn{
-    height: 11vh;
+    height: 100px;
 }
 
 

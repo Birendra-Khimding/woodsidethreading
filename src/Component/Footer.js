@@ -6,7 +6,6 @@ import './Footer.css'; // Import your CSS file
 function Footer() {
   return (
     <>
-    <hr className="section-divider-1" />
     <footer className="footer">
      <div className='footer-content'>
       <div className="company-info">

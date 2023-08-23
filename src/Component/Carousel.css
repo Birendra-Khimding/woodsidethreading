@@ -1,6 +1,6 @@
 :root{
-  --swiper-navigation-size: 15px;
-  --swiper-theme-color: white;
+  --swiper-navigation-size: 25px;
+  --swiper-theme-color: black;
 }
 
 .swiper-button-prev,
@@ -18,7 +18,7 @@
   color: var(--swiper-navigation-color, var(--swiper-theme-color));
   padding: .4rem;
   border-radius: 50% ;
-  background-color: rgba(255,255,255,0.5);
+  background-color: rgba(255, 255, 255, 0.5);
   transition: transform 0.3s ease;
   
 }
@@ -89,10 +89,10 @@ body {
 }
 
 .swiper-slide .ins-1{
-  color: rgb(231, 212, 212);
+  color: rgb(58, 53, 53);
 }
 h4{
-  color: rgb(231, 212, 212);
+  color: rgb(58, 53, 53);
 }
 
 @media(max-width: 1300px){

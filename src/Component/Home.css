@@ -60,7 +60,7 @@ section article p{
 }
 .section-divider {
     border: none;
-    border-top: 1px solid #ccc; /* Adjust the color as needed */
+    border-top: 1px solid rgb(58, 53, 53); /* Adjust the color as needed */
     margin: 20px auto; /* Add margin for spacing */
     width: 90%;
 }
@@ -113,14 +113,14 @@ section article p{
     .text-ctn .q-text{
         font-weight: bold;
         border-radius: 10%;
-        background-color: rgba(243, 51, 51, .6) ;
-      color: rgb(30, 30, 158);
+        color: rgb(48, 45, 45);
+      background-color: rgb(202, 190, 204,0.5);
     }
 
     .text-ctn .off-text{
         font-weight: bold;
-        background-color: rgba(243, 51, 51, .6) ;
-      color: rgb(30, 30, 158);
+        color: rgb(48, 45, 45);
+      background-color: rgb(202, 190, 204,0.5);
 
     }
 

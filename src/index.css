@@ -6,8 +6,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: linear-gradient(0.25turn,#702592, #db14d1);
-   color: white;
+  background: linear-gradient(0.25turn,#e0c8dc, #e79ce1);
+   color: black;
    background-size: cover;
 } 
 
