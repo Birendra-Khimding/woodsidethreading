@@ -146,7 +146,27 @@ function Services() {
 <div class="item">
     <span class="item-title">Brazilian</span>
     <span class="spc"></span>
-    <span class="item-price">$30</span>
+    <span class="item-price">$35</span>
+</div>
+<div class="item">
+    <span class="item-title">Buttocks</span>
+    <span class="spc"></span>
+    <span class="item-price">$20</span>
+</div>
+<div class="item">
+    <span class="item-title">Belly Button</span>
+    <span class="spc"></span>
+    <span class="item-price">$7</span>
+</div>
+<div class="item">
+    <span class="item-title">Stomach</span>
+    <span class="spc"></span>
+    <span class="item-price">$15</span>
+</div>
+<div class="item">
+    <span class="item-title">Full Body with Brazilian</span>
+    <span class="spc"></span>
+    <span class="item-price">$130</span>
 </div>
 </article>
 <h3 ref={facial}>Facial</h3>
@@ -205,6 +225,16 @@ function Services() {
     <span class="item-price">$50</span>
 </div>
 <div class="item">
+    <span class="item-title">Classic Eyelashes</span>
+    <span class="spc"></span>
+    <span class="item-price">$75</span>
+</div>
+<div class="item">
+    <span class="item-title">Hybrid Lashes</span>
+    <span class="spc"></span>
+    <span class="item-price">$90</span>
+</div>
+<div class="item">
     <span class="item-title">Eyelashes Lift</span>
     <span class="spc"></span>
     <span class="item-price">$60</span>
@@ -216,7 +246,11 @@ function Services() {
   <h3 ref={heena}>Heena</h3>
   <hr className="dvd"></hr>
   <article class="grid-container">
-  <div class="item">Henna Tattoos<span class="spc"></span>$7+</div>
+  <div class="item">
+  <span class="item-title">Heena Tattoos </span>
+    <span class="spc"></span>
+    <span class="item-price">$7+ </span>
+    </div>
   </article>
 
 </div>

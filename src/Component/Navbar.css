@@ -22,7 +22,10 @@ nav {
 
 nav .logo{
     width: 6rem;
-    padding: 0 1rem;
+    padding: 0;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 50%;
+    margin: 0 1rem;
 }
 
 nav .title {

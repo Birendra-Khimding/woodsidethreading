@@ -303,7 +303,6 @@ padding-top: 1.5rem;
     }
 
     .art p{
-        font-size: 5vw;
         padding:0;
     }
     
@@ -316,6 +315,10 @@ padding-top: 1.5rem;
         max-height: 60vh;
         
     }
+
+    .sAddress{
+        padding-top: 1rem;
+    }
     article{
         margin: 0;
         padding: 0;
@@ -326,12 +329,12 @@ padding-top: 1.5rem;
         overflow: hidden;
     }
 
-    .ct-ctn-1{
-        margin-bottom: 6rem;
-    }
+.ct-ctn-1{
+    margin: 0;
+}
 
     .cAddress p{
-        font-size: 4.5vw;
+        font-size: 4.25vw;
     }
     .hAddress p{
         font-size: 4.5vw;
@@ -342,6 +345,6 @@ padding-top: 1.5rem;
 
     .ct-ctn .art p{
     
-        font-size: 1.6rem ;
+        font-size: 1.3rem ;
     }
 }

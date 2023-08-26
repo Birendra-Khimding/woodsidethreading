@@ -1,7 +1,7 @@
 import React, {useState} from "react";
 import "./Navbar.css";
 import {Link, NavLink} from "react-router-dom"
-import logo from "../Images/logo4.png";
+import logo from "../Images/logo3.png";
 import {FiMenu} from 'react-icons/fi';
 import {AiOutlineClose} from 'react-icons/ai';
 import {motion} from 'framer-motion';
