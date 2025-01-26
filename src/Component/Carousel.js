@@ -29,7 +29,7 @@ function Carousel(){
           </SwiperSlide>
         
         <SwiperSlide>
-          <h4 className="sml">Thnreading</h4>
+          <h4 className="sml">Threading</h4>
         <div className="ins"><img src={threading} />
           </div>
         <div className="ins-1">

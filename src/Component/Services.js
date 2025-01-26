@@ -126,12 +126,12 @@ function Services() {
 <div class="item">
     <span class="item-title">Lower Back</span>
     <span class="spc"></span>
-    <span class="item-price">$35</span>
+    <span class="item-price">$15</span>
 </div>
 <div class="item">
     <span class="item-title">Full Back</span>
     <span class="spc"></span>
-    <span class="item-price">$15</span>
+    <span class="item-price">$35</span>
 </div>
 <div class="item">
     <span class="item-title">Bikini Line</span>
@@ -166,7 +166,7 @@ function Services() {
 <div class="item">
     <span class="item-title">Full Body with Brazilian</span>
     <span class="spc"></span>
-    <span class="item-price">$130</span>
+    <span class="item-price">$140</span>
 </div>
 </article>
 <h3 ref={facial}>Facial</h3>
